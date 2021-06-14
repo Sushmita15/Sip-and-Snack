@@ -1,0 +1,270 @@
+/*--++++big tablets to 1200px: width smaller than the 1140px row++++------*/
+@media only screen and (max-width: 1200px) {
+
+    .long-copy {
+        margin: 0 40px 0 40px;
+        line-height: 140%;
+        word-spacing: 1px;
+        font-size: 95%;
+
+    }
+
+    .menu-box {
+        height: 200px;
+    }
+
+    .cities img {
+        height: 120px;
+    }
+
+    .city-features {
+        font-size: 95%
+    }
+
+}
+
+
+/*--++++Small tablets to big tablets: 768-1023px++++------*/
+@media only screen and (max-width: 1023px) {
+
+    .navigation {
+        margin-right: 30px;
+        padding: 18px 15px;
+        font-size: 95%;
+    }
+
+    .hero-text-box {
+        width: 80%;
+        margin-left: 15%;
+
+    }
+
+    .cities img {
+        height: 100px;
+    }
+
+    .address {
+        font-size: 70%;
+        width: 200px;
+    }
+
+    .city-features {
+        width: 200px;
+    }
+
+    .hero-text-box {
+        top: 55%;
+        left: 40%;
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+    }
+
+
+}
+
+/*--++++Small phone to small tablets: 661-767px++++------*/
+@media only screen and (max-width: 767px) {
+    .navigation {
+        margin-top: 40px;
+        margin-right: 50px;
+        float: left;
+    }
+
+    .navigation li {
+        display: block;
+        padding: 5px;
+
+    }
+    
+   
+
+    .logo-light {
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    .hero-text-box {
+        top: 55%;
+        left: 37%;
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+    }
+
+    .latte-transparent {
+        margin-left: 60px;
+
+    }
+
+    .long-copy {
+        margin: 0 20px 0 0;
+        line-height: 150%;
+        word-spacing: 2px;
+        font-size: 90%;
+
+    }
+
+    .coffee-2 img,
+    .coffee-3 img {
+        height: 150px;
+        border-radius: 15%;
+    }
+    
+    .cities img{
+        height: 90px;
+        padding: 5px;
+    }
+    
+    .city-features{
+        width: 170px;
+    }
+
+    
+    .coffee-2 li{
+        font-size: 90%;
+    }
+    
+    .btn-full{
+        font-size: 80%;
+    }
+    
+    
+     .sticky .navigation {
+        display: none;
+    }
+     .sticky .main-nav a:link,
+    .sticky .main-nav a:visited {
+        padding: 8px 0px;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+    
+     .mobile-nav-icon {
+        display: inline-block;
+         float: right;
+         margin-right: 70px;
+         font-size: 140%;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 687px) {
+    .latte-transparent{
+        margin: 70px 0 70px 30px;
+    }
+    
+    
+    .meal-box{
+    background-size: cover;
+    height: 70vh;
+       
+    }
+    
+    
+    .cities img{
+        height: 250px;
+        margin-top: 40px;
+    
+    }
+    
+    .cities .span-1-of-3{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 620px) {
+      .menu-box{
+    padding: 25% 7%;
+    margin:10px 5%;
+    }
+    
+    .meal-box{
+        padding: 0 10px;
+    }
+}
+
+
+@media only screen and (max-width: 570px) {
+   .coffee-2 .span-1-of-3{
+        width: 48%;
+        display: inline-block;
+    }
+    
+    .coffee-2 img{
+        margin-top: 30px;   }
+      
+    .nav-2{
+    top: 15%;
+    left: 80%;
+    position: absolute;
+
+    -webkit-transform: translate(-45%, -50%);
+   
+    transform: translate(-45%, -50%);
+    
+    }
+    
+    .coffee h2{
+        margin-left: 0;
+        
+    }
+    
+    .navigation-ani li{
+         padding: 0 7px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+    
+    }
+    
+    
+
+
+
+
+/*--++++Small phone 0-480px++++------*/
+@media only screen and (max-width: 550px) {
+    .cities img{
+        height: 200px;
+    }
+    
+    .span-1-of-3{
+        width: 100%;
+        
+    }
+    
+    .menu-box{ 
+    padding: 70px 7px;
+    margin:10px 25%;
+    }
+    
+    .meal-box{
+        height: 115vh;
+    }
+    
+    .contact-form {
+       margin-left: 30px;
+    }
+    
+    input{
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,623 @@
+/* #9cd589- dark green #dae6d5 light green*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Nunito', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*----------------+++++++Header++++++++----------------*/
+.index {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.69))), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+
+.coffee {}
+
+h1 {
+    color: #ffffff;
+    font-size: 145%;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+h2 {
+    color: #505050;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #9cd589;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+h3 {
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-weight: 300;
+    color: #585858;
+}
+
+
+h5 {
+    font-weight: 300;
+    color: #838383;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 50px;
+}
+
+
+.hero-text-box {
+    top: 55%;
+    left: 40%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+/*-------------------+++++logo+++++--------------------*/
+
+.logo-light {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+
+
+.logo-dark {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 70px;
+}
+
+.coffee-nav img {
+    margin-top: 20px
+}
+
+/*---------------------+++++navigation+++++-----------------------*/
+
+.navigation {
+    float: right;
+    margin-top: 70px;
+    margin-right: 70px;
+ /*...*/   height: 100%;
+    overflow-x: hidden;
+    z-index: 1;/*This is importat for the nav icons to work properly*/
+
+}
+
+
+/*.side-nav {
+    
+}
+*/
+
+.navigation li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 25px;
+
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    color: #9cd589;
+    text-decoration: none;
+
+}
+
+.navigation li a:hover,
+.navigation li a:active {
+    color: #dae6d5;
+}
+
+.coffee-nav h2 {
+    margin-top: 50px;
+    margin-left: -300px
+}
+
+.coffee-nav .row {
+    border: 1px solid #;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+/*shadow not working*/
+/*------------------------+++++++about us+++++++------------------------*/
+
+.latte-transparent {
+    height: 200px;
+    margin-left: 150px;
+
+}
+
+.about-us {
+    height: 60vh;
+    margin: 30px 15px;
+  
+
+}
+
+
+.long-copy {
+    margin: 0 90px 0 60px;
+    line-height: 150%;
+    word-spacing: 2px;
+    font-size: 95%;
+
+}
+
+/*--------------------------+++++Menu+++++---------------------------*/
+
+.meal-box {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero%20pt%202.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero%20pt%202.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+.meal-box h2 {
+    color: #fff;
+}
+
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu-box {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 3px 3px #807979;
+    box-shadow: 0 0 3px 3px #807979;
+    padding: 20% 10% 5%;
+    margin: 10% 15%;
+    border: 1px solid #807979;
+    border-radius: 10px;
+    text-align: center;
+    height: 230px;
+}
+
+.menu-box a:link,
+.menu-box a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-box a:hover,
+.menu-box a:active {
+    color: #9cd589;
+}
+
+.menu-box:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    opacity: 1;
+}
+
+
+/*----------------------+++++Cities+++++---------------------*/
+
+
+.cities .row {
+    margin-top: 30px;
+}
+
+.cities img {
+    height: 150px;
+    overflow: hidden;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    opacity: 0.5s
+}
+
+.cities img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+.city-features {
+    list-style: none;
+    width: 270px;
+    margin-top: 10px;
+
+}
+
+.cities {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+
+.city-features a:link,
+.city-features a:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+
+.city-features a:hover,
+.city-features a:active {
+    color: #9cd589;
+}
+
+
+.address {
+    margin-top: 15px;
+}
+
+.address li {
+    line-height: 140%;
+}
+
+/*----------------------------+++++Coffee/ drinks+++++-----------------------------*/
+
+.coffee-2,
+.coffee-3 {
+    padding: 0 10%;
+}
+
+
+
+.hot-drinks {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.drinks-row-2 {
+    padding: 40px 0;
+}
+
+.coffee-2 a:link,
+.coffee-2 a:visited,
+.coffee-3 a:link,
+.coffee-3 a:visited {
+    text-decoration: none;
+}
+
+.coffee-2 a:hover,
+.coffee-2 a:active,
+.coffee-3 a:hover,
+.coffee-3 a:active {
+    text-decoration: none;
+    color: #727272;
+}
+
+/*------++++Image and list and special padding+++++----*/
+.coffee-2 img,
+.coffee-3 img {
+    height: 200px;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+.coffee-2 li,
+.coffee-3 li {
+    list-style: none;
+    padding-left: 5%;
+    line-height: 130%
+}
+
+.long-menu {
+    text-align: left;
+}
+
+ul {
+    margin-bottom: 30px;
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*--------+++++Button*++++---------*/
+
+.btn-full {
+    border: 1px solid #9cd589;
+    background-color: #9cd589;
+    border-radius: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 90%;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    color: #414141;
+    ;
+}
+
+.btn-full:active,
+.btn-full:hover {
+    background-color: #93c781;
+    color: #414141;
+
+    /*The text color after hover isn't working*/
+}
+
+/*#93c781;*/
+/*----------------++++h6+++++-------------*/
+
+
+h6:after {
+    content: " ";
+    height: 2px;
+    background-color: #9cd589;
+    width: 300px;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 30%
+}
+
+
+/*--------------------+++++Special+++++----------------------*/
+
+.coffee-3 {
+    margin-top: 30px;
+}
+
+section img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    opacity: 1;
+}
+
+
+
+/*-----------------------++++Footer+++++---------------*/
+
+footer {
+    background-color: #484848;
+    padding: 50px;
+
+}
+
+.footer li {
+    display: inline-block;
+    padding: 1.5%;
+    list-style: none;
+    font-size: 80%;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: #969696;
+    text-decoration: none;
+}
+
+
+.footer a:active,
+.footer a:hover {
+    color: #dae6d5;
+}
+
+
+.ul-2 {
+    font-size: 120%;
+}
+
+.ul-2 {
+    list-style: none;
+    padding-left: 120px;
+}
+
+.ul-2:link,
+.ul-2:visited {
+    color: #969696;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.instagram:hover {
+    color: #517fa4;
+}
+
+.googleplus:hover {
+    color: #db4a39;
+}
+
+
+/*---------------------+++++Nav animation+++++--------------------------*/
+
+.animate-nav:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    opacity: 1;
+}
+
+.navigation-ani a:link,
+.navigation-ani a:visited,
+.navigation-ani a:active,
+.navigation-ani a:hover {
+    color: #9cd589;
+    text-decoration: none;
+
+}
+
+.navigation-ani {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+
+.navigation-ani li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 25px;
+
+}
+
+
+
+
+/*----------------------+++++Icons+++++----------------------*/
+
+.star {
+    color: #FF9529;
+}
+
+
+
+/*--------------------+++++Sticky nav+++++---------------------*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    /*will be on top of all other elements*/
+}
+
+.sticky .navigation {
+    margin-top: 18px;
+}
+
+.sticky .navigation a:link,
+.sticky .navigation a:visited {
+    padding: 15px 0px;
+    color: #9cd589;
+}
+
+.sticky .logo-light {
+    display: none;
+
+}
+
+.sticky .logo-dark {
+    display: block;
+
+}
+
+
+/*------------mobile nav--------------*/
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 130%;
+    color: #f7f7f7;
+
+}
+
+
+/*-----------contact form-------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+
+
+}
+
+.section-form {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+}
+
+input[type=text],
+select[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+
+}
+
+*:focus {
+    outline: none;
+}
